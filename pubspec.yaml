@@ -1,0 +1,23 @@
+name: menu_tienda
+description: Una aplicación de tienda de cosméticos en Flutter
+version: 1.0.0
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  material_design_icons_flutter: ^4.0.5855
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/yanbal_logo.png
+    - assets/Yanbal_logo.jpg
+  uses-material-design: true
+
